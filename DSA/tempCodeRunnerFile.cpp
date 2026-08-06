@@ -1,3 +1,2 @@
-    for(int l : list){
-        cout << l << ",";
-    }
+    // cout << num.front() << "\n";
+    // cout << num.back() << "\n";
