@@ -1,3 +1,4 @@
+//used in all Data structures excep queue,deque, priority queue
 #include <bits/stdc++.h>
 using namespace std;
    
