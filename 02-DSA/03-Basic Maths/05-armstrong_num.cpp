@@ -8,6 +8,9 @@ int main() {
     int count = 0;
     int arm = 0;
 
+    // int k = to_string(n).length(); //one more way to count no of digits.
+    // cout << k;
+
     for(;n>0;n=n/10){
         int sing = n%10;
         cout << sing << "\n";
