@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
-    cout << 153%10;
+    string s = "hello";
+    cout << s[0];
     return 0;
 }
