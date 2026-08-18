@@ -2,8 +2,8 @@
 using namespace std;
 
 void bruteForce(){
-    vector<int> arr = {5, 2, 1, 3, 2, 4, 1, 6};
-    int k = 10;
+    vector<int> arr = {6, -2, 2, -8, 1, 7, 4, -10};
+    int k = 0;
     int max_count = 0;
     
     for(int i = 0; i < arr.size(); i++){
@@ -15,17 +15,18 @@ void bruteForce(){
                 int count = j - i + 1;
                 // cout << j << " ";
                 max_count = max(max_count, count);
-                break;
+                // break;
             }
             
-            else if(result > k){
-                break;
-            }
+            // else if(result > k){
+            //     break;
+            // }
         }
     }
     cout << max_count << "\n";
 }
 
+// two pointers
 void optimalApproach(){
     vector<int> arr = {5, 2, 1, 3, 2, 4, 1, 6};
     int k = 8;
@@ -52,7 +53,7 @@ void optimalApproach(){
 }
 
 int main() {
-    // bruteForce();
-    optimalApproach();
+    bruteForce();
+    // optimalApproach();
     return 0;
 }

@@ -1,0 +1,1 @@
+// same as 12th one but optimal apporach has hash method so check it out once
