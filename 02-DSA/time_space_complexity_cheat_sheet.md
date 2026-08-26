@@ -390,7 +390,10 @@ f(n - 1);
 f(n - 1);
 ```
 
-→ often **`O(2ⁿ)`**
+→ often **`O(2ⁿ)`**Time  = O(n × m × (n + m))
+Square matrix → O(n³)
+
+Space = O(1)
 
 ---
 
