@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// I IS CONSTANT AND WE MOVE TWO POINTERS
 int main() {
     vector<int> nums = {-1,0,1,2,-1,-4};
     // -4,-1,-1,0,1,2
