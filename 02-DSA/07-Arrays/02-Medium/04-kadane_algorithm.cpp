@@ -31,7 +31,7 @@ Kadane's algorithm finds the maximum sum of a contiguous subarray in O(n) time b
 whether to extend the current subarray or start a new one.
 */
 void optimalApproach(){
-    vector<int> nums = {-2, -3, -7, -2, -10, -4};
+    vector<int> nums = {2, 3, 5, -2, 7, -4};
     int sum = 0;
     int max_sum = INT_MIN;
 
