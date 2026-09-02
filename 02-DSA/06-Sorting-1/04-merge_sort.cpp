@@ -4,20 +4,7 @@
 void mergesort(vector<int> arr, int low, int mid, int high){
     // Create a temp array
     vector<int> temp;
-    int left = low, right = mid+1 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ;
+    int left = low, right = mid+1 ;
 }
 
 void divide(vector<int> arr, int low, int high){
@@ -36,17 +23,9 @@ void divide(vector<int> arr, int low, int high){
     divide(arr,mid+1, high);
 
     mergesort(arr,low,mid,high);
-
-
 }
 
-
-
-
-
-
-
- int main() {
+    int main() {
     int arr[6]= {4,2,7,1,5,3};     
      
     int middle = (sizeof(arr)/sizeof(arr[0]))/2;
