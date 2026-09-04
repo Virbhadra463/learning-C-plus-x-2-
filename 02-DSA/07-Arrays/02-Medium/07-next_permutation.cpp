@@ -28,6 +28,7 @@ void bruteForce(){
                 return;
             }
 }
+}
 
 void optimalApproach(){
     vector<int> nums = {1,3,2};
@@ -36,7 +37,7 @@ void optimalApproach(){
 
     for(int i = nums.size() - 1; i>= 0; i--){
         if(nums[i] < nums[i+1]){
-            index = i
+            index = i;
             break;
         }
     }

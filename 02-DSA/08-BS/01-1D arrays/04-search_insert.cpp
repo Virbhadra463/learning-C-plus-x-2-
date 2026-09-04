@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// lower boound will be used.
+// lower bound will be used.
 int main() {
     vector<int> nums = {1,2,4,7};
     int target = 2;
