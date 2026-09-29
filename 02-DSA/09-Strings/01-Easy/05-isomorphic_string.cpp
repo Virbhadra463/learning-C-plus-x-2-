@@ -17,8 +17,8 @@ public:
             }
             // t -> s
             if (stringT.find(t[i]) == stringT.end()) {
-                stringS[t[i]] = s[i];
-            } else if (stringS[s[i]] != t[i]) {
+                stringT[t[i]] = s[i];
+            } else if (stringT[t[i]] != s[i]) {
                 return false;
             }
         }
